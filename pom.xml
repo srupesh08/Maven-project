@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -11,6 +12,18 @@
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url> <!-- Fixed URL -->
 
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-4.0.0.xsd"> <!-- Error: wrong schema location -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.ashokit</groupId>
+  <artifactId></artifactId> <!-- Error: artifactId is empty -->
+  <packaging>war</packaging>
+  <version>3.0-RELEASE</version>
+  <name>01-maven-web-app</name>
+  <url>htp://maven.apache.org</url> <!-- Error: wrong URL format -->
+ 
+>>>>>>> 8e75196 (my first commit)
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -20,10 +33,17 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
+<<<<<<< HEAD
       <version>5.3.34</version> <!-- Fixed: added version -->
     </dependency>
   </dependencies>
 
+=======
+      <!-- Error: missing version -->
+    </dependency>
+  </dependencies>
+  
+>>>>>>> 8e75196 (my first commit)
   <build>
     <finalName>maven-web-app</finalName>
     <plugins>
@@ -33,10 +53,17 @@
         <version>3.8.1</version>
         <configuration>
           <source>1.8</source>
+<<<<<<< HEAD
           <target>1.8</target> <!-- Fixed: matched source and target -->
+=======
+          <target>1.7</target> <!-- Error: source and target mismatch -->
+>>>>>>> 8e75196 (my first commit)
         </configuration>
       </plugin>
     </plugins>
   </build>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e75196 (my first commit)
 </project>
