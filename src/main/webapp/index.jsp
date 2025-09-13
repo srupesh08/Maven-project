@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-=======
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
->>>>>>> 8e75196 (my first commit)
   <title>Ashok IT Courses Demo</title>
   <style>
     body {
@@ -24,11 +19,7 @@
       text-align: center;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
-<<<<<<< HEAD
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-=======
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
->>>>>>> 8e75196 (my first commit)
     }
 
     header h1 {
@@ -55,11 +46,7 @@
       background: #fff;
       padding: 25px;
       border-radius: 20px;
-<<<<<<< HEAD
       box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-=======
-      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
->>>>>>> 8e75196 (my first commit)
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
@@ -68,11 +55,7 @@
 
     .course-card:hover {
       transform: translateY(-8px);
-<<<<<<< HEAD
       box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-=======
-      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
->>>>>>> 8e75196 (my first commit)
     }
 
     .course-icon {
@@ -86,11 +69,7 @@
       justify-content: center;
       font-size: 32px;
       color: white;
-<<<<<<< HEAD
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-=======
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
->>>>>>> 8e75196 (my first commit)
     }
 
     .course-title {
@@ -131,27 +110,16 @@
 <body>
 
   <header>
-<<<<<<< HEAD
     <h1>Ashok IT Courses</h1>
-=======
-    <h1>🚀 Ashok IT Courses</h1>
->>>>>>> 8e75196 (my first commit)
     <p>Upgrade your career with our industry-ready training programs</p>
   </header>
 
   <div class="container">
     <div class="course-card">
-<<<<<<< HEAD
       <div class="course-icon"><i class="fas fa-code"></i></div>
       <div class="course-title">Java Full Stack Development</div>
       <div class="course-desc">
         Master Core Java, Spring Boot, Microservices, Angular, React &amp; more to become a job-ready full-stack developer.
-=======
-      <div class="course-icon"><i class="fab fa-java"></i></div>
-      <div class="course-title">Java Full Stack Development</div>
-      <div class="course-desc">
-        Master Core Java, Spring Boot, Microservices, Angular, React & more to become a job-ready full-stack developer.
->>>>>>> 8e75196 (my first commit)
       </div>
       <a href="#" class="btn">Enroll Now</a>
     </div>
@@ -169,22 +137,14 @@
       <div class="course-icon"><i class="fas fa-cloud"></i></div>
       <div class="course-title">DevOps with AWS</div>
       <div class="course-desc">
-<<<<<<< HEAD
         Get hands-on with Docker, Kubernetes, Jenkins, Terraform &amp; AWS Cloud to launch your DevOps career.
-=======
-        Get hands-on with Docker, Kubernetes, Jenkins, Terraform & AWS Cloud to launch your DevOps career.
->>>>>>> 8e75196 (my first commit)
       </div>
       <a href="#" class="btn">Enroll Now</a>
     </div>
 
     <div class="course-card">
       <div class="course-icon"><i class="fas fa-robot"></i></div>
-<<<<<<< HEAD
       <div class="course-title">Data Science &amp; AI</div>
-=======
-      <div class="course-title">Data Science & AI</div>
->>>>>>> 8e75196 (my first commit)
       <div class="course-desc">
         Become industry-ready with Machine Learning, Python, Deep Learning, NLP, and real-time data projects.
       </div>
